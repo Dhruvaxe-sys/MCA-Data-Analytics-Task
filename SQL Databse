@@ -1,0 +1,118 @@
+# 🗄️ SQL Database Management System
+
+A hands-on project demonstrating core **Database Management System (DBMS)** concepts using **SQL** — covering database creation, table design, and all fundamental CRUD operations (Create, Read, Update, Delete).
+
+![SQL](https://img.shields.io/badge/Language-SQL-blue?logo=mysql&logoColor=white)
+![DBMS](https://img.shields.io/badge/Concept-DBMS-orange)
+![Status](https://img.shields.io/badge/Status-Complete-brightgreen)
+
+---
+
+## 📌 Description
+
+This repository contains SQL scripts that demonstrate how to design, create, and manage a relational database. It covers essential database operations including table creation, data insertion, updating records, deleting records, and querying data — making it a solid reference for anyone learning SQL or DBMS fundamentals.
+
+## ✨ Features
+
+- 🏗️ **CREATE** — Design and create databases and tables with proper constraints (Primary Key, Not Null, etc.)
+- ➕ **INSERT** — Add new records into tables
+- 🔄 **UPDATE** — Modify existing records based on conditions
+- ❌ **DELETE** — Remove specific records from a table
+- 🔍 **SELECT** — Retrieve and filter data using conditions, sorting, and more
+- 📊 Well-structured, beginner-friendly SQL scripts with comments
+
+## 🛠️ Technologies Used
+
+- **SQL** (Structured Query Language)
+- **Database Management System (DBMS)** — MySQL / any RDBMS
+- **MySQL Workbench** / Command Line Client (for execution)
+
+## 🧩 Database Schema
+
+### `Students` Table
+
+| Column Name | Data Type     | Constraints                |
+|-------------|---------------|-----------------------------|
+| student_id  | INT           | PRIMARY KEY, AUTO_INCREMENT |
+| name        | VARCHAR(50)   | NOT NULL                    |
+| age         | INT           | NOT NULL                    |
+| course      | VARCHAR(50)   | NOT NULL                    |
+| email       | VARCHAR(100)  | UNIQUE                      |
+
+## 💻 Sample SQL Code
+
+### 1. Creating a Database
+
+```sql
+CREATE DATABASE SchoolDB;
+USE SchoolDB;
+```
+
+### 2. Creating a Table
+
+```sql
+CREATE TABLE Students (
+    student_id INT PRIMARY KEY AUTO_INCREMENT,
+    name VARCHAR(50) NOT NULL,
+    age INT NOT NULL,
+    course VARCHAR(50) NOT NULL,
+    email VARCHAR(100) UNIQUE
+);
+```
+
+### 3. Inserting Records
+
+```sql
+INSERT INTO Students (name, age, course, email)
+VALUES 
+('Aarav Sharma', 21, 'MCA', 'aarav@example.com'),
+('Priya Singh', 22, 'MCA', 'priya@example.com'),
+('Rohan Verma', 20, 'BCA', 'rohan@example.com');
+```
+
+### 4. Retrieving Records using SELECT
+
+```sql
+-- Fetch all records
+SELECT * FROM Students;
+
+-- Fetch students enrolled in MCA
+SELECT name, age, course FROM Students
+WHERE course = 'MCA';
+
+-- Fetch records sorted by age
+SELECT * FROM Students
+ORDER BY age ASC;
+```
+
+## ▶️ How to Run
+
+1. Install **MySQL** and **MySQL Workbench** (or use the MySQL command line).
+2. Open MySQL Workbench and connect to your local server.
+3. Open the `.sql` script file from this repository.
+4. Run the script step-by-step or execute the entire file:
+```bash
+   mysql -u root -p < script.sql
+```
+5. Use `SELECT * FROM Students;` to verify the data was inserted correctly.
+
+## 📁 Project Structure
+## 🚀 Future Enhancements
+
+- Add **JOIN** operations across multiple related tables (e.g., Students, Courses, Faculty)
+- Implement **Stored Procedures** and **Triggers**
+- Add **Views** for simplified data access
+- Integrate with a front-end application for a complete CRUD system
+- Add **normalization** examples (1NF, 2NF, 3NF)
+- Include **indexing** for query optimization
+
+## 👤 Author
+
+**[Dhruv Maurya]**
+MCA Student — Database Management Systems
+
+Feel free to explore, fork, and ⭐ star this repository if you find it helpful!
+
+## 📄 License
+
+This project is open-source and available for academic and learning purposes.
