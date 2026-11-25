@@ -8,35 +8,51 @@ This repository is a day-to-day log of the work I do in my **MCA Data Analytics*
 
 ---
 
-## 📌 About
+Excel Learning Journey – Day 1 to Day 13 This repository contains my 13-day Excel learning journey, starting from the basics and gradually moving towards formulas, data analysis, datasets, Pivot Tables, and data visualization.
 
-Every file here reflects what was covered in a class session — from data cleaning and Excel dashboards to SQL queries, Python scripts, and visualization exercises. The goal is to build a consistent, trackable record of learning and hands-on practice throughout the semester.
+📅 Day 1 – IIoT & Data Analytics Introduction to IIoT Introduction to Data Analytics Importance of data in analysis and decision-making
 
-## 🗂️ Repository Structure
+📅 Day 2 – Introduction to Excel Excel basics Rows, Columns & Cells Tables Basic calculations and formulas
 
-Each day's work is organized in its own folder, named by date and topic, so progress is easy to follow chronologically.
+📅 Day 3 – Student Marksheet Created a Student Marksheet Total, Average & Percentage Practiced SUM(), AVERAGE(), MIN(), MAX()
 
----
+📅 Day 4 – Conditional Formatting Applied Conditional Formatting Highlighted data based on conditions Improved data readability
 
-## 🛠️ Tools & Technologies
+📅 Day 5 – Basic Excel Functions Practiced:
 
-- **Microsoft Excel** — data cleaning, formulas, PivotTables, dashboards
-- **SQL** — querying and data manipulation
-- **Python** (Pandas, Matplotlib/Seaborn) — data analysis and visualization
-- **Power BI / Google Sheets** — as introduced during coursework
+AVERAGE() | MIN() | MAX() | COUNT() | COUNTA() | RANDBETWEEN()
 
-## 📅 Progress Log
+📅 Day 6 – IF & IFS Functions Created a Student Report Card Pass/Fail conditions Grade calculation Practiced IF() and IFS()
 
-| Date | Topic | Description |
-|---|---|---|
-| 2026-09-21 | Excel Dashboards | Built an interactive Spotify Music Intelligence Dashboard with KPIs, pivot tables, and charts |
-| — | — | *(updated as new classes happen)* |
+📅 Day 7 – Text Functions Learned basic text manipulation using:
 
-## 🎯 Purpose
+TRIM() | UPPER() | LOWER() | PROPER()
 
-- Maintain a consistent practice habit throughout the MCA program
-- Keep a portfolio of applied data analytics skills
-- Track growth and revisit concepts easily when needed
+📅 Day 8 – Date & Time Functions Worked with dates and time using:
+
+TODAY() | NOW() | DATE() | MONTH() | YEAR()
+
+📅 Day 9 – Conditional Functions Practiced condition-based data analysis using:
+
+COUNTIF() | COUNTIFS() | SUMIF() | SUMIFS() | AVERAGEIF()
+
+📅 Day 10 – Lookup Functions Learned how to retrieve information from datasets using:
+
+VLOOKUP()
+
+📅 Day 11 – Dataset & Kaggle Understanding datasets Dataset formats: CSV, Excel, JSON, SQL & ZIP Finding and downloading datasets from Kaggle Checking missing values, duplicates and data types Basic Workflow Find → Download → Understand → Clean → Analyze → Visualize
+
+📅 Day 12 – Data Visualization & Charts Introduction to Excel Charts Understanding which chart to use for different types of data Practiced different chart types Charts Covered Column | Bar | Line | Pie | Doughnut | Scatter | Histogram | Pareto | Waterfall | Funnel | Treemap | Combo | Sparklines
+
+📅 Day 13 – Pivot Tables & Data Analysis Created Pivot Tables Summarized and analyzed datasets Used Pivot Tables for data comparison Prepared summarized data for visualization and dashboard creation
+
+🛠️ Skills Learned Excel Fundamentals Formulas & Functions Conditional Formatting Text & Date Functions Logical & Conditional Functions Lookup Functions Dataset Handling Kaggle Pivot Tables Data Visualization Excel Charts
+
+📈 Learning Progress Excel Basics → Formulas → Data Handling → Analysis → Datasets → Pivot Tables → Visualization
+
+🙌 About This Repository A record of my 13-day Excel learning journey, focused on learning through practical exercises and gradually moving from basic Excel operations to data analysis and visualization.
+
+Learn → Practice → Analyze → Visualize
 
 ## 👤 Author
 
